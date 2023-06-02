@@ -1,0 +1,418 @@
+@import url(./font.css);
+*{
+    box-sizing: border-box;
+}
+* a{
+    text-decoration: none;
+}
+* input, select{
+    border: none;
+    outline: none;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 1330px;
+    margin: 0 auto;
+}
+.first-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-nav .ru-en{
+    display: flex;
+    justify-content: space-between;
+}
+.first-nav .ru-en p{
+    margin-left: 8px;
+    font-family: NeutralFace;
+    font-weight: 400;
+}
+.first-nav h3{
+    font-family: NeutralFace;
+    font-weight: 400;
+}
+.cart{
+
+}
+.cart img{
+    margin-right: 10px;
+}
+.polosa{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+}
+.second-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.second-nav a{
+    font-family: NeutralFace;
+    font-weight: 400;
+    color: black;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.title-monoh{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 60px;
+
+}
+.title-monoh h1{
+    font-family: NeutralFace;
+    font-weight: 800;
+    font-size: 140px;
+    margin: 0;
+}
+.title-monoh h3{
+    font-family: Manrope-Medium;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.img-monohrome{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.img-monohrome img:nth-child(2){
+    margin-left: 30px;
+}
+.cards-cat{
+    display: flex;
+    justify-content: space-between;
+}
+.title-cat h2{
+    font-family: Manrope-Medium;
+    font-weight: 500;
+    font-size: 60pt;
+    margin: 0;
+    margin-bottom: 50px
+}
+.categories{
+    padding-top: 150px;
+}
+.cards p{
+    font-family: Manrope-Medium;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.new-collection{
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    margin-top: 100px;
+}
+.collection{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.collection h2{
+    font-family: NeutralFace;
+    font-weight: 500;
+    font-size: 80px;
+    margin: 0;
+    color: white;
+    margin-top: 120px;
+}
+.collection p{
+    font-family: Manrope-Medium;
+    font-weight: 500;
+    font-size: 20pt;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.collection a{
+    color: black;
+    background-color: white;
+    font-family: NeutralFace;
+    width: 270px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    margin-top: 50px;
+    margin-bottom: 450px;
+}
+.title-new{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.title-new h2{
+    font-family: NeutralFace;
+    margin: 0;
+    font-size: 60pt;
+}
+
+.title-new h2:nth-child(2){
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    margin-top: 10px;
+}
+.new-season{
+    padding-top: 100px;
+}
+.blue-red-green{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-around;
+}
+.blue-red-green p{
+    font-family: Manrope-Medium;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.green-zvezda{
+    display: flex;
+    justify-content: space-between;
+}
+.star{
+    display: flex;
+    align-items: center;
+}
+.star img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.green-card{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+.green-all-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.razmer{
+    display: flex;
+    justify-content: space-between;
+}
+.tsena-promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-opisan{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.green-zvezda h2{
+    font-family: NeutralFace;
+    margin: 0;
+    font-size: 45pt;
+}
+.text-green p{
+    font-family: Manrope-Medium;
+    font-weight: 500;
+}
+#text-kostum{
+    font-size: 17pt;
+    font-weight: 600;
+}
+#tsena{
+    font-family: Manrope-Medium;
+    font-weight: 600; 
+    font-size: 36pt;   
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.razmer p{
+    font-family: Manrope-Medium;
+    font-weight: 600;
+    font-size: 14pt;
+}
+.razmer p:nth-child(2){
+    text-decoration: underline;
+}
+.razmer form input:nth-child(1){
+    width: 100%;
+}
+.opisanie-material p{
+    font-family: Manrope-Medium;
+    font-weight: 500;
+}
+.opisanie-material p:nth-child(1){
+    font-family: Manrope-Medium;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.cards-product form select{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #928f8f;
+    color: #928f8f;
+    font-family: Manrope-Medium;
+}
+.cards-product form input{
+    padding: 15px;
+    border: 1px solid rgb(170, 169, 169);
+    color: #3d3d3d;
+    height: 50%;
+}
+.cards-product form button{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+}
+.preimushestva{
+    background-color: black;    
+}
+.all-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+.all-block h3{
+    font-family: Manrope-Medium;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+.all-block p{
+    font-family: Manrope-Medium;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.about-and-photo{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-text{
+    margin-left: 100px;
+
+}
+.about-text h2{
+    font-family: NeutralFace;
+    color: black;
+    font-size: 60pt;
+}
+.about-text p{
+    font-family: Manrope-Medium;
+    color: black;
+    font-size: 20pt;
+    margin-top: 20px;
+}
+.podpiska-on-rassilka{
+    background-color: black;
+}
+.photo-form{
+    display: flex;
+    align-items: center;
+}
+.title-rassilka{
+    position: relative;
+    padding-top: 30px;
+}
+.title-rassilka h2{
+    color: white;
+    font-family: NeutralFace;
+    font-size: 54pt;
+    font-weight: 500;
+}
+.title-rassilka h2:nth-child(2){
+    position: absolute;
+    top: 110px;
+    right: 130px;
+}
+.photo-rass p{
+    color: white;
+    font-family:  Manrope-Medium;
+    font-size: 17pt;
+    margin-bottom: 60px;
+}
+.photo-form{
+    margin-top: 150px;
+}
+.form-podpiska{
+    margin-left: 70px;
+}
+.form-podpiska form label{
+    color: white;
+    font-family:  Manrope-Medium;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.name, .phone, .email{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-podpiska form input{
+    border: 1px solid #3d3d3d;
+    background: none;
+    padding: 15px;
+    color: white;
+}
+.form-podpiska form input::placeholder{
+    font-family:  Manrope-Medium;
+}
+.rassilka{
+    display: flex;
+    flex-direction: column;
+}
+.form-podpiska form button{
+    color: white;
+    color: black;
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    font-family:  NeutralFace;
+    font-weight: 600;
+    cursor: pointer;
+}
+.soglasie{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-network{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social-network .icons{
+    padding: 7px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+}
+footer p{
+    color: white;
+    font-family:  Manrope-Medium;
+}
+footer a{
+    color: white;
+    font-family:  Manrope-Medium;
+    text-decoration: underline;
+}
